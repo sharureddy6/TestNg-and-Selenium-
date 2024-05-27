@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Sample" verbose = "1">
+  <test name="Sample" preserve-order = "true">
+    <classes>
+      <class name="ExecutionOrder.SampleTestNGUses" />
+      <class name="ExecutionOrder.AnnotationsTest" />
+    </classes>
+  </test>
+  </suite>

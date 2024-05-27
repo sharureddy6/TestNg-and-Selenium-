@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test parameters ">
+  <test thread-count="1" name="Test Parameters via XML file">
+  
+  <parameter name = "browser" value = "edge"> </parameter>
+   <parameter name = "Username" value = "james121@gmail.com"> </parameter>
+    <parameter name = "password" value = "test1232"> </parameter>
+   
+    <classes>
+      <class name="com.testng.training.TestParameters" > </class>
+    </classes>
+  </test>
+</suite>
